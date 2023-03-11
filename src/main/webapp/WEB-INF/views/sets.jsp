@@ -92,7 +92,7 @@
     });
 
     const applyFilter = () => {
-        kpacGrid.data.filter(
+        setGrid.data.filter(
             {
                 by: document.getElementById("filterSelect").value,
                 match: document.getElementById("filterInput").value,
